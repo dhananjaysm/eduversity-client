@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button {
+    @apply inline-block text-xs font-bold text-center uppercase border rounded;
+  }
+  .button.blue {
+    @apply text-white bg-blue-500 border-blue-500 hover:bg-blue-300 hover:border-blue-300 disabled:bg-blue-300 disabled:border-blue-300;
+  }
+  .button.blue.hollow {
+    @apply text-blue-500 bg-transparent border-blue-500;
+  }
+}
+
+.main-container{
+  overflow: hidden;
+  display: flex;
+  flex: 1;
+  
+}
+.subcontainer{
+  overflow-y: scroll;
+  flex: 1;
+  
+}
+/* Hide scrollbar for Chrome, Safari and Opera
+.subcontainer::-webkit-scrollbar {
+  display: none;
+}
+
+Hide scrollbar for IE, Edge and Firefox
+.subcontainer {
+  -ms-overflow-style: none;  /* IE and Edge */
+  /* scrollbar-width: none;  Firefox */
+/* }  */
+
+.feedcontainer{
+  overflow-y: scroll;
+  flex: 1;
+}
+.main-container::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+.main-container::-webkit-scrollbar-track {    
+  background: #1e1e24;
+}
+
+.main-container::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+
