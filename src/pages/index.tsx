@@ -7,7 +7,6 @@ import Image from 'next/image'
 
 import { Post, Sub } from '../types'
 
-import PostCard from '../components/PostCard'
 import Link from 'next/link'
 import { useAuthState } from '../context/auth'
 import NewPostCard from '../newcomponents/NewPostCard'

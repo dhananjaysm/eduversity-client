@@ -2,7 +2,6 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import { ChangeEvent, createRef, Fragment, useEffect, useState } from "react";
 import useSWR from "swr";
-import PostCard from "../../components/PostCard";
 import Image from "next/image";
 import classNames from "classnames";
 
