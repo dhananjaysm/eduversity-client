@@ -6,12 +6,13 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { createRef, useEffect, useState } from 'react'
 import useSWR from 'swr'
+import PostCard from '../../components/PostCard'
 import { useAuthState } from '../../context/auth'
 import NewPostCard from '../../newcomponents/NewPostCard'
 import { Post, Comment, User } from '../../types'
 import classNames from "classnames";
 
-export default function user() {
+export default function Username() {
   const router = useRouter()
 
   const username = router.query.username

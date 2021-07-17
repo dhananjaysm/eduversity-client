@@ -35,8 +35,8 @@ a {
 
 
 .card {
-    height: 40vh;
-    width: 70%;
+    height: auto;
+    width: clamp(200px,60%,600px);
     min-width: 250px;
     padding: 1.5rem;
     border-radius: 16px;

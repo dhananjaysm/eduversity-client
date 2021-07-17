@@ -75,7 +75,7 @@ export default function Login() {
             </button>
           </form>
           <small>
-            New to Readit?
+            New to Eduversity?
             <Link href="/register">
               <a className="ml-1 uppercase text-olight-500">Sign Up</a>
             </Link>

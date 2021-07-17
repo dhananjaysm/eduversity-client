@@ -11,6 +11,9 @@ import '../styles/spaceside.css'
 import '../styles/card.css'
 
 
+
+
+import Navbar from '../components/Navbar'
 import SpaceSideBar from '../newcomponents/SpaceSideBar'
 import NProgress from 'nprogress'
 
@@ -53,7 +56,10 @@ function App({ Component, pageProps }: AppProps) {
         <div className="flex h-screen">
   {/* <!-- Fixed sidebar --> */}
   
-   <SpaceSideBar/>
+  <div className="hidden md:block">
+  <SpaceSideBar/>
+  </div>
+   
 
   {/* <!-- Scroll wrapper --> */}
   <div className="main-container">

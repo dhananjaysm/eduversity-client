@@ -1,3 +1,6 @@
+import dayjs from 'dayjs'
+import Head from 'next/head'
+
 
 import { Sub } from '../types'
 import { useAuthState } from '../context/auth'

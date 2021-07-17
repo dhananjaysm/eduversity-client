@@ -7,6 +7,7 @@ import Image from 'next/image'
 
 import { Post, Sub } from '../types'
 
+import PostCard from '../components/PostCard'
 import Link from 'next/link'
 import { useAuthState } from '../context/auth'
 import NewPostCard from '../newcomponents/NewPostCard'
@@ -103,7 +104,7 @@ export default function Home() {
           )}
           </section>
 
-          <div className="fixed top-0 right-0 hidden mx-10 mt-5 md:block w-80">
+          <div className="fixed top-0 right-0 hidden mx-10 mt-5 lg:block w-80">
           <div className="rounded bg-space-500">
             <div className="p-4 border-b-2">
               <p className="text-lg font-semibold text-center">

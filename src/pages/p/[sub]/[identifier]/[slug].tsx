@@ -5,6 +5,7 @@ import useSWR from 'swr'
 import Image from 'next/image'
 import dayjs from 'dayjs'
 import relativeTime from 'dayjs/plugin/relativeTime'
+import classNames from 'classnames'
 
 import { Post, Comment } from '../../../../types'
 import Sidebar from '../../../../components/Sidebar'
