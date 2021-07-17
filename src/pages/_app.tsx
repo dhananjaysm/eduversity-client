@@ -11,9 +11,6 @@ import '../styles/spaceside.css'
 import '../styles/card.css'
 
 
-
-
-import Navbar from '../components/Navbar'
 import SpaceSideBar from '../newcomponents/SpaceSideBar'
 import NProgress from 'nprogress'
 
